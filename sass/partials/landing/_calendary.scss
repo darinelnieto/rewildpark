@@ -1,0 +1,145 @@
+.calendary-partial-0a4431 {
+    padding: 6rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    form{
+        .wpcf7-not-valid-tip{
+            position: absolute;
+        }
+        .input-contain{
+           p{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                br{
+                    display: none;
+                }
+                label{
+                    color: $white;
+                    font-size: $p;
+                    font-weight: 100;
+                }
+                input{
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                    height: 47px;
+                    border-radius: 10px;
+                    padding: 0 15px;
+                    font-family: $primary_font;
+                    color: $green_dark;
+                    font-weight: bold;
+                }
+           }
+        }
+        .number-contain{
+            p{
+                margin-bottom: 10px;
+                label{
+                    color: $white;
+                    font-size: $p;
+                    font-weight: 100;
+                }
+            }
+            .campos{
+                display: flex;
+                gap: 12px;
+                p{
+                    width: 93%;
+                    input{
+                        width: 100%;
+                        border: none;
+                        outline: none;
+                        height: 47px;
+                        border-radius: 10px;
+                        padding: 0 15px;
+                        font-family: $primary_font;
+                        color: $green_dark;
+                        font-weight: bold;
+                        &::-webkit-outer-spin-button, &::-webkit-inner-spin-button{
+                            -webkit-appearance: none;
+                        }
+                        -moz-appearance: textfield;
+                    }
+                }
+                .nav{
+                    p{
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        gap: 5px;
+                        br{
+                            display: none;
+                        }
+                        .further{
+                            height: 50%;
+                            border: none;
+                            width: 30px;
+                            outline: none;
+                            position: relative;
+                            span{
+                                position: absolute;
+                                left: 50%;
+                                top: 74%;
+                                transform: translate(-50%, -70%) rotate(135deg);
+                                width: 12px;
+                                height: 12px;
+                                border-left: 1px solid;
+                                border-bottom: 1px solid;
+                                border-color: $green_dark;
+                            }
+                        }
+                        .less{
+                            height: 50%;
+                            border: none;
+                            width: 30px;
+                            outline: none;
+                            position: relative;
+                            span{
+                                position: absolute;
+                                left: 50%;
+                                top: 34%;
+                                transform: translate(-50%, -50%) rotate(-45deg);
+                                width: 12px;
+                                height: 12px;
+                                border-left: 1px solid;
+                                border-bottom: 1px solid;
+                                border-color: $green_dark;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .submit-contain{
+            position: relative;
+            margin-top: 20px;
+            p{
+                display: block;
+                input{
+                    background: $green;
+                    color: $green_dark;
+                    width: 100%;
+                    text-align: center;
+                    font-weight: bold;
+                    font-family: $primary_font;
+                    font-size: calc(1.5rem + 1.6vw);
+                    border: none;
+                    outline: none;
+                    border-radius: 10px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+        .wpcf7-response-output{
+            background: $white;
+            color: $green_dark;
+            padding: 10px;
+            text-align: center;
+            font-family: $primary_font;
+            font-weight: 100;
+            font-size: $p;
+        }
+    }
+}

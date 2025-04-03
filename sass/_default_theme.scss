@@ -1,0 +1,35 @@
+/*============ Fonts ===========*/
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Thin.woff2') format('woff2'),
+        url('../fonts/Montserrat-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+$primary_font: 'Montserrat', sans-serif;
+/*============ Color ============*/
+$white: #ffffff;
+$green_dark: #3b6435;
+$green: #08f908;
+$yellow: #f8cf13;
+$p: calc(1.1rem + .7vw);
+/*== Body ==*/
+html, body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.container{
+    width: 100%;
+    max-width: 1250px !important;
+}

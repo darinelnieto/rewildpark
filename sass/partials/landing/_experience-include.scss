@@ -1,0 +1,70 @@
+.experience-include-partial-f46c68 {
+    padding: 5rem 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .title{
+        color: $white;
+        font-size: calc(1.2rem + 1.6vw);
+        margin-bottom: 1rem;
+        font-weight: bold;
+    }
+    .item-include{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        img{
+            width: 100%;
+            max-width: 101px;
+            height: auto;
+            margin: 0 auto;
+        }
+        .description{
+            color: $yellow;
+            font-size: calc(1rem + .4vw);
+            font-weight: bold;
+            line-height: 1.1;
+        }
+    }
+    .scedules{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        .description{
+            color: $green;
+            font-size: calc(1.3rem + .7vw);
+            font-weight: 100;
+            strong{
+                font-weight: bold;
+            }
+        }
+        @media(max-width:768px){
+            flex-direction: column;
+        }
+    }
+    .desctiprion-after-shedules{
+        color: $white;
+        font-weight: 100;
+        font-size: $p;
+        text-align: center;
+        line-height: 1.1;
+        margin-bottom: 4rem;
+        strong{
+            font-weight: bold;
+        }
+    }
+    .join-cta{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        img{
+            max-width: 350px;
+            width: 100%;
+            height: auto;
+            @media(max-width:768px){
+                max-width: 300px;
+            }
+        }
+    }
+}

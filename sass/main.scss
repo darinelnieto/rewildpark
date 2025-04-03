@@ -1,0 +1,20 @@
+@import 'default_theme';
+
+// Ditto include zone (don't delete anything below)
+// #DittoPartials
+@import "./partials/landing/end-content";
+@import "./partials/landing/gallery-fater-form";
+@import "./partials/landing/calendary";
+@import "./partials/landing/wild-stories";
+@import "./partials/landing/gallery-after-join-the-wild";
+@import "./partials/landing/experience-include";
+@import "./partials/landing/half-day-tour";
+@import "./partials/landing/make-a-diference";
+@import "./partials/landing/collage";
+@import "./partials/landing/banner";
+
+@import "./partials/globals/footer";
+@import "./partials/globals/header";
+
+// #DittoTemplates
+@import "./templates/landing-template";
