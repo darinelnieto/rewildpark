@@ -60,4 +60,7 @@ wpcfFooter.addEventListener( 'wpcf7submit', function() {
     var sms = 'Hola, soy ' + $('.full-name').val() + '. Quiero una reserva para ' + $('.campos input').val();
     var url = whatsapp_link+sms;
     window.open(url, '_blank');
+    setTimeout(function() {
+        location.reload();
+    }, 2000);
 }, false );
