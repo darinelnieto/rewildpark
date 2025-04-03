@@ -20,4 +20,5 @@ $calendary = get_field('calendary_group');
 <script>
     let person_number = 1;
     let price = '<?= $calendary['price']; ?>';
+    const whatsapp_link = '<?= $calendary['whatsapp']['url']; ?>';
 </script>

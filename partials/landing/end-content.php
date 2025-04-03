@@ -87,13 +87,15 @@ $logo = $content['loros_logo'];
                         <?php endif; ?>
                     </div>
                 </div>
-                <div class="col-12 col-md-4">
-                    <div class="menu">
-                        <?php wp_nav_menu(['menu' => 'footer landing']); ?>
-                    </div>
+                <div class="col-12 col-md-<?php if($footer['enable_logos'] === true): ?>4<?php else: ?>5<?php endif; ?>">
+                    <?php if($footer['enamble_menu']): ?>
+                        <div class="menu">
+                            <?php wp_nav_menu(['menu' => 'footer landing']); ?>
+                        </div>
+                    <?php endif; ?>
                 </div>
-                <div class="col-12 col-md-4">
-                    <?php if($footer['logos']): ?>
+                <div class="col-12 col-md-<?php if($footer['enable_logos'] === true): ?>4<?php else: ?>3<?php endif; ?>">
+                    <?php if($footer['enable_logos'] === true): ?>
                         <ul class="sponsors">
                             <?php foreach($footer['logos'] as $logo): ?>
                                 <li>
@@ -101,6 +103,8 @@ $logo = $content['loros_logo'];
                                 </li>
                             <?php endforeach; ?>
                         </ul>
+                    <?php else: ?>
+                        <p class="rnt"><?= $footer['rnt']; ?></p>
                     <?php endif; ?>
                 </div>
             </div>

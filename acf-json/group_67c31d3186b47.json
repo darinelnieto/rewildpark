@@ -1359,6 +1359,22 @@
                     "step": "",
                     "prepend": "",
                     "append": ""
+                },
+                {
+                    "key": "field_67ee768b21ae0",
+                    "label": "WhatsApp",
+                    "name": "whatsapp",
+                    "aria-label": "",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array"
                 }
             ]
         },
@@ -1892,6 +1908,46 @@
                     ]
                 },
                 {
+                    "key": "field_67ee73a7c601c",
+                    "label": "Enamble menú",
+                    "name": "enamble_menu",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 0,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_67ee711c63785",
+                    "label": "Enable logos",
+                    "name": "enable_logos",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 0,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
                     "key": "field_67e9ba7f3a4c4",
                     "label": "Logos",
                     "name": "logos",
@@ -1899,7 +1955,15 @@
                     "type": "repeater",
                     "instructions": "",
                     "required": 0,
-                    "conditional_logic": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_67ee711c63785",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
                     "wrapper": {
                         "width": "",
                         "class": "",
@@ -1940,6 +2004,34 @@
                             "parent_repeater": "field_67e9ba7f3a4c4"
                         }
                     ]
+                },
+                {
+                    "key": "field_67ee71da63786",
+                    "label": "RNT",
+                    "name": "rnt",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_67ee711c63785",
+                                "operator": "!=",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
                 }
             ]
         }
@@ -1962,5 +2054,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1743676861
+    "modified": 1743681194
 }

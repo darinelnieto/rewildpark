@@ -54,3 +54,10 @@ function calc_price(){
     let total_price = calcPrice.toLocaleString("en-US", { style: "currency", currency: "USD" });
     $('.price').val(total_price + ' USD');
 }
+var wpcfFooter = document.querySelector( '.wpcf7' );
+ 
+wpcfFooter.addEventListener( 'wpcf7submit', function() {
+    var sms = 'Hola, soy ' + $('.full-name').val() + '. Quiero una reserva para ' + $('.campos input').val();
+    var url = whatsapp_link+sms;
+    window.open(url, '_blank');
+}, false );

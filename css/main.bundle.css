@@ -271,6 +271,22 @@ html, body {
     max-width: 20vw;
   }
 }
+.end-content-partial-9a426f .footer-content .rnt {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: calc(1.2rem + 1.6vw);
+  line-height: 1.3;
+  text-align: right;
+}
+.end-content-partial-9a426f .footer-content .rnt strong {
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .end-content-partial-9a426f .footer-content .rnt {
+    text-align: center;
+  }
+}
 
 .gallery-fater-form-partial-e0f649 {
   background: #ffffff;
@@ -507,13 +523,6 @@ html, body {
   position: relative;
   width: 100%;
   height: auto;
-}
-.wild-stories-partial-57ca18 .stories-content .svg-contain svg #Trazado_19 {
-  position: absolute;
-  transition: 2s;
-}
-.wild-stories-partial-57ca18 .stories-content .svg-contain svg #Trazado_19.show {
-  transform: translate(45%, -43%);
 }
 
 .gallery-after-join-the-wild-partial-2a3f65 {

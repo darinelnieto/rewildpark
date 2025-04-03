@@ -237,5 +237,19 @@
                 }
             }
         }
+        .rnt{
+            color: $white;
+            font-family: $primary_font;
+            font-weight: 300;
+            font-size: calc(1.2rem + 1.6vw);
+            line-height: 1.3;
+            text-align: right;
+            strong{
+                font-weight: bold;
+            }
+            @media(max-width:768px){
+                text-align: center;
+            }
+        }
     }
 }
