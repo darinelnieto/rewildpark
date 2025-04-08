@@ -423,11 +423,10 @@ html, body {
   text-align: center;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
-  font-size: calc(1.5rem + 1.6vw);
+  font-size: calc(1rem + 1.6vw);
   border: none;
   outline: none;
   border-radius: 10px;
-  text-transform: uppercase;
 }
 .calendary-partial-0a4431 form .wpcf7-response-output {
   background: #ffffff;
