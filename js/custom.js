@@ -29,10 +29,10 @@ $('.stories-slide').owlCarousel({
 }).css({'opacity':1});
 /*============= Form =============*/
 $('.further').on('click', function(e){
-    if(person_number >= 1){
+    if(person_number >= 2){
         person_number++;
     }else{
-        person_number = 1;
+        person_number = 2;
     }
     $('.campos input').val(person_number);
     calc_price();
@@ -40,15 +40,19 @@ $('.further').on('click', function(e){
 });
 $('.less').on('click', function(e){
     person = $('.campos input').val();
-    if(person_number > 1){
+    if(person_number > 2){
         person_number--;
     }else{
-        person_number = 1;
+        person_number = 2;
     }
     $('.campos input').val(person_number);
     calc_price();
     e.preventDefault();
 });
+$('.campos input').on('input', function(){
+    person_number = $(this).val();
+    calc_price();
+})
 function calc_price(){
     let calcPrice = price * person_number;
     let total_price = calcPrice.toLocaleString("en-US", { style: "currency", currency: "USD" });
