@@ -51,6 +51,10 @@ $('.less').on('click', function(e){
 });
 $('.campos input').on('input', function(){
     person_number = $(this).val();
+    if(person_number < 2){
+        person_number = 2;
+        $(this).val(person_number);
+    }
     calc_price();
 })
 function calc_price(){
