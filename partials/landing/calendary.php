@@ -18,7 +18,7 @@ $calendary = get_field('calendary_group');
     </div>
 </section> 
 <script>
-    let person_number = 1;
+    let person_number = 2;
     let price = '<?= $calendary['price']; ?>';
     const whatsapp_link = '<?= $calendary['whatsapp']['url']; ?>';
 </script>
