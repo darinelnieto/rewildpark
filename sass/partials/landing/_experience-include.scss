@@ -3,6 +3,9 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    @media(max-width:768px){
+        padding: 3rem 15px;
+    }
     .title{
         color: $white;
         font-size: calc(1.2rem + 1.6vw);
@@ -41,6 +44,12 @@
         }
         @media(max-width:768px){
             flex-direction: column;
+            gap: 0;
+            margin-bottom: .6rem;
+            .description{
+                margin: 0;
+                line-height: 1.2;
+            }
         }
     }
     .desctiprion-after-shedules{
@@ -52,6 +61,9 @@
         margin-bottom: 4rem;
         strong{
             font-weight: bold;
+        }
+        @media(max-width:768px) {
+            margin-bottom: 2.5rem;
         }
     }
     .join-cta{

@@ -336,6 +336,79 @@
             ]
         },
         {
+            "key": "field_67f5d7fca84ce",
+            "label": "Collage movil",
+            "name": "collage_movil",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "table",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Row",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_67f5d7fca84cf",
+                    "label": "Image",
+                    "name": "image",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "preview_size": "medium",
+                    "parent_repeater": "field_67f5d7fca84ce"
+                },
+                {
+                    "key": "field_67f5d7fca84d0",
+                    "label": "Column",
+                    "name": "column",
+                    "aria-label": "",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "min": "",
+                    "max": "",
+                    "placeholder": "",
+                    "step": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_67f5d7fca84ce"
+                }
+            ]
+        },
+        {
             "key": "field_67c4bc6b5d933",
             "label": "Make a diference",
             "name": "",
@@ -2054,5 +2127,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1743681194
+    "modified": 1744164995
 }

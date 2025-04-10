@@ -1,1 +1,9 @@
-#landing-template-9bc58a {}
+#landing-template-9bc58a {
+    .revert-movil{
+        display: flex;
+        flex-direction: column;
+        @media(max-width:768px){
+            flex-direction: column-reverse;
+        }
+    }
+}

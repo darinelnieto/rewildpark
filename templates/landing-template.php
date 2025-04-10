@@ -12,8 +12,10 @@ get_header();
 ?>
 <main id="landing-template-9bc58a">
     <?php get_template_part('partials/landing/banner'); ?>
-    <?php get_template_part('partials/landing/collage'); ?>
-    <?php get_template_part('partials/landing/make-a-diference'); ?>
+    <div class="revert-movil">
+        <?php get_template_part('partials/landing/collage'); ?>
+        <?php get_template_part('partials/landing/make-a-diference'); ?>
+    </div>
     <?php get_template_part('partials/landing/half-day-tour'); ?>
     <?php get_template_part('partials/landing/experience-include'); ?>
     <?php get_template_part('partials/landing/gallery-after-join-the-wild'); ?>
