@@ -2,12 +2,10 @@
     .desktop{
         position: relative;
         overflow: hidden;
-        max-height: 100vh;
         width: 100%;
         /*============ Background ============*/
         .background{
             width: 100%;
-            max-height: 100vh;
             object-fit: cover;
             object-position: bottom;
         }
