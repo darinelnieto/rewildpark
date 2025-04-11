@@ -1,12 +1,15 @@
 .gallery-fater-form-partial-e0f649 {
     background: $white;
     padding: 15px 0;
-    .col-6, .col-12{
+    .item{
         padding: 2.5px;
         img{
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
+    }
+    @media(max-width:768px){
+        padding: 2.5px 0;
     }
 }

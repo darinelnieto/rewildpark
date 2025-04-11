@@ -3,6 +3,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    @media(max-width:768px){
+        padding: 2rem 15px;
+    }
     form{
         .wpcf7-not-valid-tip{
             position: absolute;

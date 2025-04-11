@@ -11,6 +11,15 @@
             font-size: $p;
             margin-bottom: 0;
         }
+        @media(max-width:768px){
+            padding: 15px;
+            p{
+                font-size: 15px;
+                br{
+                    display: none;
+                }
+            }
+        }
     }
     .stories-content{
         position: relative;
@@ -19,6 +28,10 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        @media(max-width:768px){
+            padding: 2rem 15px 5rem 15px;
+            min-height: auto;
+        }
         .container{
             position: relative;
             .title{
@@ -27,7 +40,7 @@
                 color: $green_dark;
                 font-weight: bold;
                 @media(max-width:768px){
-                    font-size: calc(1.3rem + 1.6vw);
+                    font-size: 21px;
                 }
             }
             .stories-slide{
@@ -41,6 +54,9 @@
                         font-weight: 300;
                         strong{
                             font-weight: bold;
+                        }
+                        @media(max-width:768px){
+                            font-size: 16px;
                         }
                     }
                 }
@@ -72,7 +88,7 @@
             bottom: 0;
             transform: translate(-50%, -12%);
             @media(max-width:768px){
-                transform: translate(-50%, -72%);
+                display: none;
             }
             width: 100%;
             svg{

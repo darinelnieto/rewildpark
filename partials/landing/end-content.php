@@ -55,7 +55,8 @@ $logo = $content['loros_logo'];
             <?php endif; ?>
             <div class="row pt-4">
                 <div class="col-12 text-center">
-                    <img src="<?= $content['text_image']['url']; ?>" alt="<?= $content['text_image']['title']; ?>" width="<?= $content['text_image']['width']; ?>" height="<?= $content['text_image']['height']; ?>" class="text-img">
+                    <img src="<?= $content['text_image']['url']; ?>" alt="<?= $content['text_image']['title']; ?>" width="<?= $content['text_image']['width']; ?>" height="<?= $content['text_image']['height']; ?>" class="text-img d-none d-md-block">
+                    <img src="<?= $content['text_image_movil']['url']; ?>" alt="<?= $content['text_image_movil']['title']; ?>" width="<?= $content['text_image_movil']['width']; ?>" height="<?= $content['text_image_movil']['height']; ?>" class="text-img d-block d-md-none">
                     <div class="book-now-cta">
                         <a href="#reserve">
                             <?= $content['book_now']; ?>

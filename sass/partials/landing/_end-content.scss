@@ -16,6 +16,8 @@
         height: auto;
         @media(max-width:768px){
             padding-top: calc(4rem + 1.6vw);
+            padding-left: 15px;
+            padding-right: 15px;
         }
         .nine{
             position: absolute;
@@ -24,6 +26,11 @@
             transform: translate(-40%, -14%);
             width: 70vw;
             height: auto;
+            @media(max-width:768px){
+                left: 50%;
+                transform: translate(-50%, -23%);
+                width: calc(100% + 230px);
+            }
         }
         .row{
             position: relative;
@@ -34,6 +41,9 @@
                     height: auto;
                     max-width: 323px;
                     margin: 0 auto;
+                    @media(max-width:768px){
+                        width: 197px;
+                    }
                 }
             }
             .rigth-content{
@@ -51,8 +61,15 @@
                         font-weight: bold;
                         font-family: $primary_font;
                         line-height: 1;
-                        @media(max-width:768px){
+                    }
+                    @media(max-width:768px){
+                        background: transparent;
+                        p{
                             font-size: calc(1.2rem + 1.6vw);
+                            text-align: center;
+                            background: $yellow;
+                            padding: 8px 15px;
+                            border-radius: 8px;
                         }
                     }
                 }
@@ -63,6 +80,7 @@
                         font-family: $primary_font;
                         font-weight: bold;
                         line-height: 1;
+                        color: #3b3123;
                     }
                 }
                 .description{
@@ -75,7 +93,7 @@
                     letter-spacing: 2px;
                 }
                 @media(max-width:768px){
-                    padding: 0;
+                    padding: 0 15px;
                     .yellow-content{
                         margin: 0 auto 1rem auto;
                     }
@@ -84,6 +102,12 @@
                     }
                     .description{
                         text-align: center;
+                        font-size: 15px;
+                        font-weight: 400;
+                        letter-spacing: 0;
+                        br{
+                            display: none;
+                        }
                     }
                 }
             }
@@ -95,6 +119,9 @@
                     max-width: 20vw;
                     height: auto;
                     margin-bottom: 1rem;
+                    @media(max-width:768px){
+                        max-width: 45vw;
+                    }
                 }
                 .text-card{
                     font-size: calc(.7rem + 0.6vw);
@@ -103,6 +130,13 @@
                     font-family: $primary_font;
                     font-weight: 300;
                     margin-bottom: 0;
+                    @media(max-width:768px){
+                        font-size: 14px;
+                        font-weight: 400;
+                        br{
+                            display: none;
+                        }
+                    }
                 }
             }
             /*============= Text image =============*/
@@ -110,6 +144,10 @@
                 width: 26vw;
                 height: auto;
                 margin-bottom: 5.5rem;
+                @media(max-width:768px){
+                    width: 100%;
+                    margin-bottom: 2.5rem;
+                }
             }
             .book-now-cta{
                 a{
@@ -125,6 +163,10 @@
                     font-weight: bold;
                     font-size: calc(1.5rem + 1.6vw);
                     line-height: 1;
+                    @media(max-width:768px){
+                        padding: 13px 4rem;
+                        font-size: 24px;
+                    }
                 }
             }
         }
@@ -136,7 +178,8 @@
             width: 34vw;
             height: auto;
             @media(max-width: 768px){
-                transform: translate(-11%, -119%);
+                transform: translate(-11%, 50%);
+                width: 42vw;
             }
         }
         .loro-right{
@@ -146,6 +189,9 @@
             margin-top: 3rem;
             width: 26vw;
             height: auto;
+            @media(max-width: 768px){
+                right: -5%;
+            }
         }
     }
     .footer-content{
