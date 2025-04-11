@@ -591,15 +591,24 @@ html, body {
   transform: translate(-50%, -50%);
   justify-content: space-between;
 }
-.wild-stories-partial-57ca18 .stories-content .container .stories-slide .owl-nav button {
-  font-size: 3.3rem;
-  font-weight: 100;
-  outline: none;
-  color: #3b6435;
-  font-family: "Montserrat", sans-serif;
+.wild-stories-partial-57ca18 .stories-content .container .stories-slide .owl-nav button img {
+  width: 25px;
+  height: auto;
 }
 .wild-stories-partial-57ca18 .stories-content .container .stories-slide .owl-nav .disabled {
   opacity: 0.5;
+}
+@media (max-width: 768px) {
+  .wild-stories-partial-57ca18 .stories-content .container .stories-slide .owl-nav {
+    position: relative;
+    transform: none;
+    left: 0;
+    justify-content: center;
+    gap: 20px;
+    top: 0;
+    width: fit-content;
+    margin: 0 auto;
+  }
 }
 .wild-stories-partial-57ca18 .stories-content .svg-contain {
   position: absolute;

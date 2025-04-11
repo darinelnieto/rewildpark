@@ -2149,7 +2149,7 @@
                     "label": "RNT",
                     "name": "rnt",
                     "aria-label": "",
-                    "type": "text",
+                    "type": "textarea",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": [
@@ -2168,9 +2168,9 @@
                     },
                     "default_value": "",
                     "maxlength": "",
+                    "rows": "",
                     "placeholder": "",
-                    "prepend": "",
-                    "append": ""
+                    "new_lines": "br"
                 }
             ]
         }
@@ -2193,5 +2193,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1744370075
+    "modified": 1744372072
 }

@@ -73,14 +73,23 @@
                     transform: translate(-50%, -50%);
                     justify-content: space-between;
                     button{
-                        font-size: 3.3rem;
-                        font-weight: 100;
-                        outline: none;
-                        color: $green_dark;
-                        font-family: $primary_font;
+                        img{
+                            width: 25px;
+                            height: auto;
+                        }
                     }
                     .disabled{
                         opacity: .5;
+                    }
+                    @media(max-width:768px){
+                        position: relative;
+                        transform: none;
+                        left: 0;
+                        justify-content: center;
+                        gap: 20px;
+                        top: 0;
+                        width: fit-content;
+                        margin: 0 auto;
                     }
                 }
             }

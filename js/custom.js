@@ -23,6 +23,10 @@ $('.stories-slide').owlCarousel({
     autoplay:false,
     loop:false,
     nav:true,
+    navText:[
+        prev,
+        next
+    ],
     dots:false,
     margin:30,
     items:1

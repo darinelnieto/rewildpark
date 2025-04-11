@@ -55,4 +55,7 @@ $stories = get_field('their_wild_stories');
     </div>
     <?php endif; ?>
 </section>
-                    
+<script>
+    const prev = `<img src="<?= get_template_directory_uri(); ?>/images/Prev.png" alt="Prev icon">`;
+    const next = `<img src="<?= get_template_directory_uri(); ?>/images/Next.png" alt="Next icon">`;
+</script>       
