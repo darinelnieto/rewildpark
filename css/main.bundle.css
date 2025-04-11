@@ -574,6 +574,7 @@ html, body {
 .wild-stories-partial-57ca18 .stories-content .container .stories-slide .item .description .subtitle {
   font-weight: bold;
   margin-bottom: 1.5rem;
+  display: inline-flex;
 }
 @media (max-width: 768px) {
   .wild-stories-partial-57ca18 .stories-content .container .stories-slide .item .description {
