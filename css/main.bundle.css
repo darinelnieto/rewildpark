@@ -260,7 +260,7 @@ html, body {
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  font-size: calc(1.2rem + 1.6vw);
+  font-size: calc(1rem + 0.6vw);
   line-height: 1.3;
 }
 .end-content-partial-9a426f .footer-content .rigth-content p strong {
