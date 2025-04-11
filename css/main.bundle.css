@@ -188,6 +188,7 @@ html, body {
 .end-content-partial-9a426f .end-content .row .text-img {
   width: 26vw;
   height: auto;
+  margin: 0 auto;
   margin-bottom: 5.5rem;
 }
 @media (max-width: 768px) {
