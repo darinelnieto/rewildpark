@@ -554,6 +554,7 @@ html, body {
   font-size: calc(1.3rem + 2.6vw);
   color: #3b6435;
   font-weight: bold;
+  margin-bottom: 1.5rem;
 }
 @media (max-width: 768px) {
   .wild-stories-partial-57ca18 .stories-content .container .title {
@@ -570,8 +571,9 @@ html, body {
   font-size: calc(1.1rem + 0.7vw);
   font-weight: 300;
 }
-.wild-stories-partial-57ca18 .stories-content .container .stories-slide .item .description strong {
+.wild-stories-partial-57ca18 .stories-content .container .stories-slide .item .description .subtitle {
   font-weight: bold;
+  margin-bottom: 1.5rem;
 }
 @media (max-width: 768px) {
   .wild-stories-partial-57ca18 .stories-content .container .stories-slide .item .description {
