@@ -4,8 +4,48 @@
     "fields": [
         {
             "key": "field_67fe583277cf2",
-            "label": "",
-            "name": "",
+            "label": "Meta title",
+            "name": "meta_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_67fe58ca83bcc",
+            "label": "Meta description",
+            "name": "meta_description",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "rows": 2,
+            "placeholder": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_67fe593183bcd",
+            "label": "Author",
+            "name": "author",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -41,5 +81,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1744722051
+    "modified": 1744722660
 }
