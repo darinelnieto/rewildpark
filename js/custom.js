@@ -69,7 +69,7 @@ function calc_price(){
 var wpcfFooter = document.querySelector( '.wpcf7' );
  
 wpcfFooter.addEventListener( 'wpcf7submit', function() {
-    var sms = 'Hola, soy ' + $('.full-name').val() + '. Quiero una reserva para ' + $('.campos input').val() + ' personas, el día ' + $('.wpcf7-date').val() + '. Puedes contactarme a través del teléfono: ' + $('.wpcf7-tel').val() + ' o email: ' + $('.wpcf7-email').val();
+    var sms = 'Hello, my name is ' + $('.full-name').val() + `. I'd like a reservation for ` + $('.campos input').val() + ' people on ' + $('.wpcf7-date').val() + '. You can contact me by phone: ' + $('.wpcf7-tel').val() + ' or email: ' + $('.wpcf7-email').val();
     var url = whatsapp_link+sms;
     window.open(url, '_blank');
     setTimeout(function() {
