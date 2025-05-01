@@ -1029,8 +1029,8 @@ html, body {
 .banner-partial-2df8aa .desktop .animations-img .rewildpark {
   position: absolute;
   left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  top: 40%;
+  transform: translate(-50%, -40%);
   width: 33vw;
   transition: 0.6s;
 }
@@ -1043,12 +1043,109 @@ html, body {
   width: 100%;
   height: auto;
 }
+.banner-partial-2df8aa .book-now-cta {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, -100%);
+  z-index: 2;
+}
+.banner-partial-2df8aa .book-now-cta a {
+  text-decoration: none;
+  display: block;
+  width: fit-content;
+  background: #08f908;
+  color: #1e351a;
+  margin: 0 auto;
+  padding: 20px 5rem;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: calc(1.5rem + 1.6vw);
+  line-height: 1;
+}
+@media (max-width: 768px) {
+  .banner-partial-2df8aa .book-now-cta a {
+    padding: 13px 2rem;
+    font-size: 24px;
+  }
+}
 @media (max-width: 510px) {
+  .banner-partial-2df8aa .book-now-cta {
+    width: 290px;
+    top: 60%;
+    transform: translate(-50%, -60%);
+  }
   .banner-partial-2df8aa .desktop {
     display: none;
   }
   .banner-partial-2df8aa .movil {
     display: block;
+  }
+}
+
+.header-partial-7cbee3 {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.3);
+  left: 0;
+  top: 0;
+  padding: 8px 0;
+  z-index: 20;
+  width: 100%;
+}
+.header-partial-7cbee3 .bar-menu {
+  display: none;
+  flex-direction: column;
+  gap: 7px;
+  width: 30px;
+  cursor: pointer;
+}
+.header-partial-7cbee3 .bar-menu span {
+  height: 3px;
+  background: #ffffff;
+  transition: 0.2s;
+}
+.header-partial-7cbee3 .bar-menu .center {
+  width: 24px;
+}
+.header-partial-7cbee3 .bar-menu.active .top {
+  transform: rotate(-45deg) translate(-5px, 7px);
+}
+.header-partial-7cbee3 .bar-menu.active .bottom {
+  transform: rotate(45deg) translate(0, -50%);
+}
+.header-partial-7cbee3 .bar-menu.active .center {
+  display: none;
+}
+.header-partial-7cbee3 .nav-menu ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+.header-partial-7cbee3 .nav-menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.header-partial-7cbee3 .nav-menu.active {
+  display: block;
+}
+@media (max-width: 768px) {
+  .header-partial-7cbee3 .bar-menu {
+    display: flex;
+  }
+  .header-partial-7cbee3 .nav-menu {
+    display: none;
+    padding: 2rem 0 1rem 0;
+  }
+  .header-partial-7cbee3 .nav-menu ul {
+    flex-direction: column;
+    justify-content: left;
+    gap: 6px;
   }
 }
 

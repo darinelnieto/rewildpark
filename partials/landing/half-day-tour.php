@@ -12,7 +12,7 @@ $half_tour = get_field('half_tour');
 $gallery = $half_tour['gallery'];
 $tabs = $half_tour['tabs'];
 ?>
-<section class="half-day-tour-partial-80801c">
+<section class="half-day-tour-partial-80801c" id="half-day-tour">
     <img src="<?= $half_tour['background']['url']; ?>" alt="<?= $half_tour['background']['title']; ?>" width="<?= $half_tour['background']['width']; ?>" height="<?= $half_tour['background']['height']; ?>" class="background">
     <div class="container">
         <div class="row title-content">

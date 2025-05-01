@@ -13,7 +13,7 @@ $img = $diference['main_image'];
 $bkg = $diference['background'];
 $icons = $diference['icons'];
 ?>
-<section class="make-a-diference-partial-09b84b" <?php if($bkg): ?>style="background-image:url(<?= $bkg; ?>);"<?php endif; ?>>
+<section class="make-a-diference-partial-09b84b" id="about-us" <?php if($bkg): ?>style="background-image:url(<?= $bkg; ?>);"<?php endif; ?>>
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-4">

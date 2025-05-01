@@ -22,7 +22,7 @@ $stories = get_field('their_wild_stories');
             </div>
         </div>
     <?php endif; if($stories['stories']): ?>
-    <div class="stories-content" style="background-image:url(<?= $stories['background']['url']; ?>);">
+    <div class="stories-content" id="guest-reviews" style="background-image:url(<?= $stories['background']['url']; ?>);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-10">

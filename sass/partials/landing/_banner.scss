@@ -59,8 +59,8 @@
             .rewildpark{
                 position: absolute;
                 left: 50%;
-                top: 50%;
-                transform: translate(-50%, -50%);
+                top: 40%;
+                transform: translate(-50%, -40%);
                 width: 33vw;
                 transition: .6s;
             }
@@ -75,7 +75,37 @@
             height: auto;
         }
     }
+    .book-now-cta{
+        position: absolute;
+        left: 50%;
+        top: 100%;
+        transform: translate(-50%, -100%);
+        z-index: 2;
+        a{
+            text-decoration: none;
+            display: block;
+            width: fit-content;
+            background: $green;
+            color: #1e351a;
+            margin: 0 auto;
+            padding: 20px 5rem;
+            border-radius: 10px;
+            font-family: $primary_font;
+            font-weight: bold;
+            font-size: calc(1.5rem + 1.6vw);
+            line-height: 1;
+            @media(max-width:768px){
+                padding: 13px 2rem;
+                font-size: 24px;
+            }
+        }
+    }
     @media(max-width:510px){
+        .book-now-cta{
+            width: 290px;
+            top: 60%;
+            transform: translate(-50%, -60%);
+        }
         .desktop{
             display: none;
         }

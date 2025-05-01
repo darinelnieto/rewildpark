@@ -12,7 +12,7 @@ $content = get_field('the_inpact_content');
 $nine = $content['nine_image'];
 $logo = $content['loros_logo'];
 ?>
-<section class="end-content-partial-9a426f">
+<section class="end-content-partial-9a426f" id="our-impact">
     <?php if($content['main_image']): ?>
         <img src="<?= $content['main_image']['url']; ?>" alt="<?= $content['main_image']['title']; ?>" class="background">
     <?php endif; ?>

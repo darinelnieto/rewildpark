@@ -10,6 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 $banner_dst = get_field('banner_desktop');
 $banner_mvl = get_field('banner_movil');
+$cta = get_field('the_inpact_content');
 ?>
 <section class="banner-partial-2df8aa">
     <div class="desktop">
@@ -24,6 +25,11 @@ $banner_mvl = get_field('banner_movil');
     </div>
     <div class="movil">
         <img src="<?= $banner_mvl['url']; ?>" alt="<?= $banner_mvl['title']; ?>" width="<?= $banner_mvl['width']; ?>" height="<?= $banner_mvl['height']; ?>">
+    </div>
+    <div class="book-now-cta">
+        <a href="#reserve">
+            <?= $cta['book_now']; ?>
+        </a>
     </div>
 </section>
                     

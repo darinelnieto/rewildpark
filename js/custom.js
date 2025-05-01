@@ -2,6 +2,10 @@ $(()=>{
     $('.campos input').val(person_number);
     calc_price();
 });
+$('.bar-menu').on('click', function(){
+    $(this).toggleClass('active');
+    $('.nav-menu').toggleClass('active');
+});
 /*============= Slide gallery =============*/
 $('.gallery-slide').owlCarousel({
     autoplay:true,
